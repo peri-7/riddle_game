@@ -1,0 +1,73 @@
+.riddle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 80vh;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header {
+  margin-bottom: auto;
+}
+
+.header h1 {
+  font-family: 'Arial Black', sans-serif;
+  color: #ff4757;
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box-container {
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.clue-btn {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.side-eye {
+  position: absolute;
+  top: -30px;
+  right: -80px;
+  font-size: 0.9rem;
+  color: #ff4757;
+  transform: rotate(45deg);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.invisible-btn {
+  background: transparent;
+  border: none;
+  width: 100px;
+  height: 80px;
+  cursor: default; /* Keeps the secret! */
+}
+
+.arrow-svg {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  fill: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

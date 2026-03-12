@@ -1,0 +1,76 @@
+.riddle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 80vh;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.road-track {
+  width: 100%;
+  height: 100px;
+  border-bottom: 4px solid #333;
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.character {
+  position: absolute;
+  bottom: 0;
+  font-size: 2.5rem;
+  transition: left 0.2s ease-out;
+}
+
+.coyote {
+  z-index: 2;
+}
+
+.roadrunner {
+  z-index: 1;
+}
+
+.controls-hint {
+  margin-top: 50px;
+  font-style: italic;
+  color: #666;
+}
+
+.mobile-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 5;
+}
+
+.touch-zone {
+  flex: 1;
+  height: 100%;
+  background: transparent;
+}
+
+.side-eye-riddle3 {
+  position: absolute;
+  top: 50%; /* Center it vertically in the container */
+  right: 10%;
+  font-size: 0.9rem;
+  color: #ff4757;
+  font-style: italic;
+  font-weight: bold;
+  transform: rotate(15deg);
+  white-space: nowrap;
+  background: transparent; /* Match other pages */
+  padding: 5px;
+  z-index: 10;
+}

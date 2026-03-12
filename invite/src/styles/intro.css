@@ -1,0 +1,102 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 80vh;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header {
+  margin-bottom: auto; /* Pushes everything below it away from the top */
+}
+
+.header h1 {
+  font-family: 'Arial Black', sans-serif;
+  color: #ff4757;
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content-box {
+  margin-bottom: auto; /* Pushes it away from the bottom, centering it relative to the header */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question {
+  font-size: 1.5rem;
+  color: #2f3542;
+  margin-bottom: 10px; /* Small gap between question and buttons */
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  position: relative; /* Essential for the span's absolute positioning */
+}
+
+.side-eye {
+  position: absolute;
+  top: -25px;
+  right: -20px;
+  font-size: 0.85rem;
+  color: #ff4757;
+  font-style: italic;
+  font-weight: bold;
+  transform: rotate(15deg);
+  white-space: nowrap;
+}
+
+.btn {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto;
+  min-width: 100px;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #3742fa;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.side-eye {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 0.9rem;
+  color: #ff4757;
+  transform: rotate(45deg);
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 3.5rem;
+  }
+  .btn {
+    font-size: 1.1rem;
+    padding: 15px 30px;
+  }
+}
