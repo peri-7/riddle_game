@@ -6,17 +6,18 @@ function Final() {
     <div className="final-container">
       <header className="header">
         <h1>Congrats!!!</h1>
-        <h2>You're Invited!</h2>
+        <h2>You've been Invited!</h2>
       </header>
 
       <div className="invitation-card">
         <p className="welcome-text">
           Hope you enjoyed the game!<br />
-          I'd be very happy to see you at my party.
+          I'd be very happy to see you at my party.<br />
+	  Confirmation of attendance would be appreciated.
         </p>
         
         <div className="info-section">
-          <p><strong>📅 When:</strong> Saturday 21-03</p>
+          <p><strong>📅 When:</strong> Saturday / 21-03 / 9-10 p.m.</p>
           <p><strong>📍 Where:</strong> My House, Papadiamantopoulou 47</p>
         </div>
 
