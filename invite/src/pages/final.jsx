@@ -18,11 +18,11 @@ function Final() {
         
         <div className="info-section">
           <p><strong>📅 When:</strong> Saturday / 21-03 / 9-10 p.m.</p>
-          <p><strong>📍 Where:</strong> My House, Papadiamantopoulou 47</p>
+	  <p><strong>📍 Where:</strong> What are you looking for creep?</p>
         </div>
 
         <a 
-	  href="https://maps.app.goo.gl/qbGG7RAAYyrBQnX6A"
+	  href="https://youtu.be/dQw4w9WgXcQ?si=noyXb04ronV8drTD"
           target="_blank" 
           rel="noopener noreferrer"
           className="maps-link"
